@@ -18,3 +18,7 @@ According to the instruction, [this project](https://github.com/Resilience-17-La
 # Deployed website
     url : https://try-curl.onrender.com
     [You can also click here](https://try-curl.onrender.com)
+
+# Developer Resume
+![developer resume](./resume/resume-25.jpg)
+The pdf version of the resume can be downloaded from the resume folder
