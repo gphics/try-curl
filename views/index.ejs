@@ -1,27 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Try Curl</title>
     <style>
-        form{
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        h2 {
+            background-color: red;
+            text-align: center;
+        }
+
+        form {
+            margin: 10px auto;
             display: flex;
             align-items: center;
-            width:80vw;
+            width: 90vw;
             max-width: 600px;
         }
-        input{
-            width:90%;
+
+        input {
+            width: 90%;
             height: 45px;
             border-radius: 5px;
             padding-left: 5px;
         }
-        button{
+
+        button {
+            font-weight: bold;
             cursor: pointer;
             margin-left: 2%;
-             border-radius: 5px;
-            color:white;
+            border-radius: 5px;
+            border: 3px solid black;
+            color: white;
             height: 30px;
             width: 30px;
             border: none;
@@ -31,11 +48,13 @@
         }
     </style>
 </head>
+
 <body>
-    <h4>Welcome home !!</h4>
+    <h2>Try Curl</h2>
     <form action="/main" method="post">
         <input type="text" name="command" placeholder="type the command here .." id="command">
         <button type="submit"> > </button>
     </form>
 </body>
+
 </html>

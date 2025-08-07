@@ -4,6 +4,7 @@ class RequestParser {
     this.commandArr = command.split("|");
     this.err = null;
     this.data = {};
+    // validating the delimiter
     if (!command.includes("|") || this.commandArr.length < 2) {
       this.err = command.length
         ? "Use '|' as the delimeter"

@@ -14,3 +14,7 @@ According to the instruction, [this project](https://github.com/Resilience-17-La
     url: "/main"
     method: POST
     returns: JSON response of the result of the command
+
+# Deployed website
+    url : https://try-curl.onrender.com
+    [You can also click here](https://try-curl.onrender.com)
