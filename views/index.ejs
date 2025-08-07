@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            display: flex;
+            align-items: center;
+            width:80vw;
+            max-width: 600px;
+        }
+        input{
+            width:90%;
+            height: 45px;
+            border-radius: 5px;
+            padding-left: 5px;
+        }
+        button{
+            cursor: pointer;
+            margin-left: 2%;
+             border-radius: 5px;
+            color:white;
+            height: 30px;
+            width: 30px;
+            border: none;
+            outline: none;
+            font-size: 1.2em;
+            background-color: rgb(107, 172, 10);
+        }
+    </style>
+</head>
+<body>
+    <h4>Welcome home !!</h4>
+    <form action="/main" method="post">
+        <input type="text" name="command" placeholder="type the command here .." id="command">
+        <button type="submit"> > </button>
+    </form>
+</body>
+</html>
